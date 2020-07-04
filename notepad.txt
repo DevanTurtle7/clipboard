@@ -1,9 +1,4 @@
 curl -H 'Accept: application/vnd.twitchtv.v5+json' \
 -H 'Client-ID: b3f8o6lurrry9l9ymrx865fh798ae1' \
--H 'Authorization: OAuth cfabdegwdoklmawdzdo98xt2fo512y' \
+-H 'Authorization: OAuth rucc8xg96ciyvmzxt1oq25id5mey1i' \
 -X GET 'https://api.twitch.tv/kraken/user'
-
-
-
-
-https://id.twitch.tv/oauth2/authorize?client_id=b3f8o6lurrry9l9ymrx865fh798ae1&response_type=code&redirect_uri=https://devanturtle7.github.io/clipboard
