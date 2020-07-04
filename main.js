@@ -1,8 +1,5 @@
-var code = fetch('https://api.twitch.tv/kraken/user')
-
 console.log('hello')
-console.log(code)
 
-fetch('http://api.twitch.tv/kraken/user')
-  .then(response => response.json())
-  .then(data => console.log(data));
+$.get('https://api.twitch.tv/helix/users?client_id=b3f8o6lurrry9l9ymrx865fh798ae1', function(data) {
+    console.log(data);
+})
